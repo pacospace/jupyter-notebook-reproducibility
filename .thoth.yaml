@@ -7,22 +7,5 @@ runtime_environments:
     operating_system:
       name: ubi
       version: "8"
-    python_version: "3.6"
+    python_version: "3.7"
     recommendation_type: latest
-
-managers:
-  - name: update
-    configuration:
-      labels: [bot]
-  - name: info
-  - name: version
-    configuration:
-      maintainers:
-        - fridex
-        - goern
-        - harshad16
-        - pacospace
-      assignees:
-        - sesheta
-      labels: [bot]
-      changelog_file: true
